@@ -19,13 +19,12 @@ Alexa, ask ryans weather app whats the weather in {zipcode}
 Alexa will then respond with, 
 
 ```
-"The temperature in {zipcode} is {current temperature} degrees celsius and {current temperature} degrees fahrenheit"
+The temperature in {zipcode} is {current temperature} degrees celsius and {current temperature} degrees fahrenheit
 ```
 
-Alexa: 
+## Process
 
-
-The skill uses an OpenWeatherMap API to get the temperature data in kelvin, which I then convert to celsius and fahrenheit.
+The skill uses an [OpenWeatherMap](https://openweathermap.org/) API to get the temperature data in kelvin, which I then convert to celsius and fahrenheit.
 
 
 

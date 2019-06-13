@@ -1,5 +1,6 @@
 import requests
 
+
 def lambda_handler(event, context):
     if event['request']['type'] == "LaunchRequest":
         return(launch(event, context))
@@ -56,9 +57,11 @@ def intent_router(event, context):
 def temperature_intent(event, context): 
     original = event['request']['intent']['slots']
     user_defined_zipcode = original['zipcode']['value']
+
     temperature_kelvin = get_temp(user_defined_zipcode)
     temperature_fahrenheit = convert_to_fahrenheit(temperature_kelvin)
     temperature_celsius = convert_to_celsius(temperature_kelvin)
+    
     return(statement("Temperature", "The temperature in " + str(user_defined_zipcode[0])
                     + " " + str(user_defined_zipcode[1]) + " " + str(user_defined_zipcode[2])
                     + " " + str(user_defined_zipcode[3]) + " " + str(user_defined_zipcode[4])

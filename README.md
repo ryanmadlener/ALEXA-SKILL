@@ -24,7 +24,7 @@ The temperature in {zipcode} is {current temperature} degrees celsius and {curre
 
 ## Process
 
-The skill uses an [OpenWeatherMap](https://openweathermap.org/) API to get the temperature data in kelvin, which I then convert to celsius and fahrenheit.
+The skill uses an [OpenWeatherMap](https://openweathermap.org/) API to get the temperature data in kelvin, which is then convert to celsius and fahrenheit.
 
 
 

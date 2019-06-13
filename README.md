@@ -13,13 +13,13 @@ Alexa, open ryans weather app
 To recieve the information about the weather in your zipcode, simply say,
 
 ```
-Alexa, ask ryans weather app whats the weather in _your zipcode_
+Alexa, ask ryans weather app whats the weather in {zipcode}
 ```
 
 Alexa will then respond with, 
 
 ```
-"The temperature in *your zipcode* is 32 degrees celsius and 90 degrees fahrenheit"
+"The temperature in {zipcode} is {current temperature} degrees celsius and {current temperature} degrees fahrenheit"
 ```
 
 Alexa: 

@@ -10,11 +10,19 @@ The invocation name is "ryan's weather app", meaning to utilize the skill you mu
 Alexa, open ryans weather app
 ```
 
-For instance,
+To recieve the information about the weather in your zipcode, simply say,
 
-User: "Alexa, ask ryans weather app whats the weather in 98075"
+```
+Alexa, ask ryans weather app whats the weather in *your zipcode*
+```
 
-Alexa: "The temperature in 98075 is 32 degrees celsius and 90 degrees fahrenheit"
+Alexa will then respond with, 
+
+```
+"The temperature in *your zipcode* is 32 degrees celsius and 90 degrees fahrenheit"
+```
+
+Alexa: 
 
 
 The skill uses an OpenWeatherMap API to get the temperature data in kelvin, which I then convert to celsius and fahrenheit.

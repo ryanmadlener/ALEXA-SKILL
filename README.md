@@ -4,7 +4,7 @@ Ryan's Weather App is an Alexa skill that takes a user defined zipcode and retur
 
 ## How To Use The Skill
 
-The invocation name is "ryan's weather app", meaning to utilize the skill you must say 
+The invocation name is "ryan's weather app", meaning to utilize the skill you must say,
 
 ```
 Alexa, open ryans weather app
@@ -13,7 +13,7 @@ Alexa, open ryans weather app
 To recieve the information about the weather in your zipcode, simply say,
 
 ```
-Alexa, ask ryans weather app whats the weather in *your zipcode*
+Alexa, ask ryans weather app whats the weather in _your zipcode_
 ```
 
 Alexa will then respond with, 
